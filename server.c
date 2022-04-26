@@ -197,7 +197,7 @@ int main(int argc, char **argv){
     return EXIT_FAILURE;
 	}
 
-	printf("=== WELCOME TO THE CHATROOM ===\n");
+	printf("*** == THE SERVER HAS STARTED THE CHATROOM == ***\n");
 
 	while(1){
 		socklen_t clilen = sizeof(cli_addr);
